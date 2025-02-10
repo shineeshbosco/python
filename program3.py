@@ -1,16 +1,26 @@
-    
-n=int(input("enter a number(if 0 enter it will stop):"))
-sum=0
-while True:
-    if (n==0):
-        break
-    elif (n<0):
-        n=int(input("enter a number(if 0 enter it will stop):"))
-        continue
+n=int(input("enter a number:"))
+if num >0:
+    if (num%2==0):
+        print(0)
+elif num >0:
+    if(num%2==0):
+        print("positive even")   
     else:
-        sum+=n
-        print("enter of all positive numbers is :",sum)
-    n=int(input("enter a number(if 0 enter it will stop):"))
-print("sum of all positive numbers is :",sum)        
+        print("positive odd")
+else:
+    if(num%2==0):
+        print("nagetive even")
+    else:
+        print("nagetive odd")
 
-             
+
+
+
+
+
+
+
+
+
+
+
